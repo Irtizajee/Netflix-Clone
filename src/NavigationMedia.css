@@ -1,0 +1,206 @@
+.second_cont_first_div{
+    /* fontSize:"48px", fontWeight:"bold" , textAlign:"center" */
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+   
+
+
+}
+
+.second_cont_second_div{
+    /* fontSize:"28px", fontWeight:"400" , textAlign:"center", paddingTop:"15px" */
+    font-size: 28px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 15px;
+
+}
+
+.second_cont_third_div{
+/* fontSize:"20px", fontWeight:"400" , textAlign:"center" , paddingTop:"20px" */
+font-size: 20px;
+font-weight: 400;
+text-align: center;
+padding-top: 20px;
+
+}
+/* padding:"15px 10px", borderRadius:"3px", border:"2px solid rgb(53,55,55)", outline:"none", background:"rgba(1,1,1,0.5)", width:"370px", marginRight:"10px", color:"white" */
+.second_cont_forth_div center input[type="text"]{
+    padding: 15px 10px ;
+    border-radius: 3px;
+    border: 2px solid  rgb(53,55,55);
+    outline:none;
+    background: rgba(1,1,1,0.5);
+    width: 370px;
+    margin-right: 10px;
+    color: white;
+}
+
+/* style={{padding:"7px 10px", borderRadius:"3px",  width:"190px", fontSize:"26px", color:"white" , backgroundColor:"rgb(229,9,20)", outline:"none", border:"none"}} */
+.second_cont_forth_div center input[type="button"]{
+    padding: 7px 10px;
+    border-radius: 3px ;
+    width:190px ;
+    font-size: 26px;
+    color: white;
+    background: rgb(229,9,20);
+    outline: none;
+    border: none;
+}
+
+.navLogo img{
+    width: 200px;
+    margin-top: -14px;
+    margin-left: 20px;
+}
+
+.navSignin button{
+    /* padding: "4px 11px",
+        outline: " none",
+        border: "none",
+        backgroundColor: "red",
+        color: "white",
+        borderRadius: "4px",
+        marginTop: "28px",
+        marginRight: "40px",
+        fontWeight: "600" */
+
+        padding: 4px 11px ;
+        outline: none;
+        border: none;
+        background-color: rgb(229,9,20);
+        color: white;
+        border-radius: 4px;
+        margin-top: 28px;
+        margin-right: 40px;
+        font-weight: 600;
+
+}
+@media only screen and (max-width: 957px)
+{
+    .navLogo img{
+        width: 160px;
+        margin-top: -14px;
+        margin-left:7px;
+    }
+    .navSignin button{
+        padding: 4px 11px ;
+        margin-top: 20px;
+        margin-right: 20px;
+        font-weight: 600;
+    }
+    .secondCont{
+        margin-top: 100px;
+    }
+    .second_cont_first_div{
+        
+        font-size: 30px;
+    }
+    
+    .second_cont_second_div{
+        /* font-size: 28px; */
+        font-size: 20px;
+        padding-top: 10px;
+    }
+    
+    .second_cont_third_div{
+    font-size: 15px; 
+    padding-top: 10px;
+    
+    }
+    .second_cont_forth_div center input[type="text"]{
+        padding: 15px 10px ;
+        width: 300px;
+        margin-right: 10px;
+    }
+    .second_cont_forth_div center input[type="button"]{
+        padding: 7px 10px;
+        width:150px ;
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 899px)
+{
+    
+}
+@media only screen and (max-width: 799px)
+{
+    .navLogo img{
+        width: 150px;
+        margin-top: -14px;
+        margin-left:5px;
+    }
+    .navSignin button{
+        padding: 4px 11px ;
+        margin-top: 16px;
+        margin-right: 20px;
+        font-weight: 600;
+    }
+    .secondCont{
+        margin-top: 70px;
+    }
+    .second_cont_first_div{
+        
+        font-size: 26px;
+    }
+    
+    .second_cont_second_div{
+        /* font-size: 28px; */
+        font-size: 16px;
+        padding-top: 10px;
+    }
+    
+    .second_cont_third_div{
+    font-size: 11px; 
+    padding-top: 10px;
+    
+    }
+    .second_cont_forth_div center input[type="text"]{
+        padding: 11px 10px ;
+        width: 300px;
+        margin-right: 10px;
+    }
+    .second_cont_forth_div center input[type="button"]{
+        padding: 7px 10px;
+        width:120px ;
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 699px)
+{
+    .navLogo img{
+        width: 140px;
+        margin-top: -14px;
+        margin-left:0px;
+    }
+    .navSignin button{
+        padding: 4px 7px ;
+        font-size: 14px;
+        margin-top: 14px;
+        margin-right: 20px;
+        font-weight: 600;
+    }
+    .secondCont{
+        margin-top: 50px;
+    }
+}
+@media only screen and (max-width: 378px)
+{
+    .navLogo img{
+        width: 100px;
+        /* margin-top: -14px; */
+        margin-left:0px;
+    }
+    .navSignin button{
+        padding: 4px 7px ;
+        font-size: 10px;
+        margin-top: 5px;
+        margin-right: 20px;
+        font-weight: 600;
+    }
+    .secondCont{
+        margin-top: 50px;
+    }
+}
+

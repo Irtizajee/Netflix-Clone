@@ -1,0 +1,176 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body{
+  overflow-x: hidden;
+}
+
+.netflixIMG{
+  
+  overflow: hidden;
+  width: 100%;
+  height: 760px;
+}
+
+
+.App_parent{
+  background-image: linear-gradient(  rgba(0,0,0,0.9) , rgba(0,0,0,0.6) ,rgba(0,0,0,0.5)  , rgba(0,0,0,0.7), rgba(0,0,0,0.9)  );
+  /* background: rgba(0,0,8,0.6); */
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 760px;
+  width: 100%;
+
+  overflow: hidden;
+  border-bottom:9px solid rgba(65, 64, 64, 0.9) ;
+  /* border: 1px solid black; */
+}
+
+
+.secondCont{
+  
+
+margin-top: 180px;
+display: flex;
+justify-content: center;
+align-items: center;
+  
+}
+.img{
+  width: 100%;
+  transform :scale(140%)
+}
+
+@media only screen and (max-width: 1200px)
+{
+  .App_parent{
+    height: 670px;
+  }
+  .img{
+    width: 100%;
+    height: 900px;
+
+  }
+}
+
+@media only screen and (max-width : 957px) {
+
+  .secondCont{
+    margin-top: 100px;
+    color: purple;
+    border-color: purple;
+    font-size: 14px;
+  }
+
+  .App_parent{
+    height: 560px;
+  }
+  .netflixIMG{
+    height: 600px;
+
+  }
+  .img{ 
+    width: 100%;
+    height: 560px;
+  }
+}
+
+@media only screen and (max-width : 899px) {
+
+  .secondCont{
+    margin-top: 80px;
+    color: purple;
+    border-color: purple;
+    font-size: 10px;
+
+  }
+  .App_parent{
+    height: 580px;
+  }
+  .netflixIMG{
+    height: 500px;
+
+  }
+  .img{
+    width: 960px;
+    height: 900px;
+  }
+}
+@media only screen and (max-width : 799px) {
+
+  .secondCont{
+    margin-top: 70px;
+    color: purple;
+    border-color: purple;
+  }
+  .App_parent{
+    height: 400px;
+  }
+  .netflixIMG{
+    height: 400px;
+
+  }
+  .img{
+    width: 900px;
+    height: 900px;
+  }
+
+}
+@media only screen and (max-width : 699px) {
+
+  .secondCont{
+    margin-top: 60px;
+    color: purple;
+    border-color: purple;
+  }
+  .App_parent{
+    height: 400px;
+  }
+  .netflixIMG{
+    height: 400px;
+
+  }
+  .img{
+    width: 900px;
+    height: 950px;
+  }
+}
+
