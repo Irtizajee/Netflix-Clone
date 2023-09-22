@@ -47,7 +47,7 @@ function Askedquestion(props) {
                 display: "none",
                 transition: ".5s ease-in-out"
 
-            })
+            }) 
             setI(i - 1)
 
             setCross_plus(plus)
