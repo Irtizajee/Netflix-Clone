@@ -8,7 +8,7 @@ function NetflixAnimi() {
     <>
  <div  className='containerStyleImg'>
     <img src={netflix_tv} alt="" >
-    
+     
     </img>
     {/* <VideoPLayer src={vid} width="300px" height="300px"  /> */}
     </div>
