@@ -19,6 +19,12 @@
    
 
 }
+/* @media only screen and(max-width:1011px){
+    .img_responsive{
+      left: 2%!important;
+      width: 100px;
+    }
+  } */
 
 .containerStylePara{
    
