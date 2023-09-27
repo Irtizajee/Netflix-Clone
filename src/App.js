@@ -11,14 +11,15 @@ import netflix_tv from './netflix_tv.png';
 import container_3 from './container_3.png';
 import Question from './Question.jsx';
 
+import NetflixAnimi from './NetflixAnimi'
 
 function App() {
 
- 
+  // second={<Image img={netflix_tv} />}
   return (
     <>
      <Navigation />
-     <Container  first={<Paragraph h1="Enjoy on your TV" p="Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more." />}  second={<Image img={netflix_tv} />} />
+     <Container  first={<Paragraph h1="Enjoy on your TV" p="Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more." />}  second={<NetflixAnimi/>} />
 
      <Container  first={<Image img={container_2} />}  second={<Paragraph h1="Download your shows to watch offline" p="Save your favorites easily and always have something to watch." />} />
 

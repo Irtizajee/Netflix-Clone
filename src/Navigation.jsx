@@ -14,8 +14,8 @@ function Navigation() {
                 <div className='container firstCont' style={{  display: "flex", justifyContent: "space-between" }}>
 
 
-                    <div className='navLogo'>
-                        <img  src={Netflix_logo} />
+                    <div  className='navLogo'>
+                        <img src={Netflix_logo} />
                     </div>
 
                     <div className='navSignin'>
